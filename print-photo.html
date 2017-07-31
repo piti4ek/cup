@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>print-photo</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/bootstrap-select/dist/css/bootstrap-select.min.css">
+  <link rel="stylesheet" href="assets/bxslider/jquery.bxslider.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="catalog-mag">
+    <section class="head-bg-container">
+      <div class="one-row-head">
+        <div class="logo">
+          <div class="all-part-logo">
+            <a href=""><img src="assets/img/logo-all-part.png" alt=""></a>
+          </div>
+          <section class="register-block">
+            <div class="login">
+              <a href="">вход</a>
+            </div>
+            <span>|</span>
+            <div class="register">
+              <a href="">регистрация</a>
+            </div>
+          </section>
+        </div>
+        <div class="btn-group top-header-btn" role="group" aria-label="">
+          <a href="#" type="button" class="btn btn-default">Выпускные альбомы</a>
+          <span class="aft-button-top"></span>
+          <a href="#" type="button" class="btn btn-default">Фотопечать</a>
+          <span class="aft-button-top"></span>
+          <a href="#" type="button" class="btn btn-default">Чашки</a>
+          <span class="aft-button-top"></span>
+          <a href="#" type="button" class="btn btn-default">Магниты</a>
+          <span class="aft-button-top"></span>
+          <a href="#" type="button" class="btn btn-default">Пазлы</a>
+          <span class="aft-button-top"></span>
+          <a href="#" type="button" class="btn btn-default">Фотостудия</a>
+          <span class="aft-button-top"></span>
+          <a href="#" type="button" class="btn btn-default">Галерея</a>
+        </div>
+        <div class="basket-head">
+          <a href="#">
+            <img src="assets/img/basket.png" alt="">
+            <img src="assets/img/basket-number-bg.png" class="number-basket-top" alt="">
+            <span class="number-txt-basket">1</span>
+          </a>
+        </div>
+      </div>
+      <ul class="bxslider">
+        <li class="one-li"><img src="assets/img/circle-bg-1.png" /></li>
+        <li class="two-li"><img src="assets/img/circle-bg-2.png" /></li>
+        <li class="three-li"><img src="assets/img/circle-bg-1.png" /></li>
+      </ul>
+      <div class="all-baner-txt-btn">
+        <h2>ПАЗЛЫ С ВАШЕЙ ФОТОГРАФИЕЙ</h2>
+        <p>Создавайте уникальный дизайн в онлайн-редакторе.</p>
+        <p>Загружайте фото с компьютера или из соц. сетей.</p>
+        <p>Оперативное изготовление - 3 дня.</p>
+        <button type="button" class="btn btn-default btn-bnr-white">СОЗДАТЬ ДИЗАЙН</button>
+      </div>
+    </section>
+  </header>
+  <content>
+    <div class="container-print-photo">
+
+      <div class="order-form-h galery-h">
+        <h1>Калькулятор фотопечати</h1>
+      </div>
+      <div class="select-format-print">
+        <p>ФОРМАТ:</p>
+      </div>
+      <div class="btn-group my-btn-select-format" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">10 x 15</button>
+        <button type="button" class="btn btn-default">13 x 18</button>
+        <button type="button" class="btn btn-default">15 x 20</button>
+        <button type="button" class="btn btn-default">15 x 21</button>
+        <button type="button" class="btn btn-default">20 x 30</button>
+      </div>
+      <div class="paper-block-txt">
+        <p>БУМАГА:</p>
+      </div>
+      <div class="btn-group my-btn-select-format" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Матовая</button>
+        <button type="button" class="btn btn-default">Глянцевая</button>
+      </div>
+
+      <div class="all-select-chois-pp">
+        <p>Количество:</p>
+        <div class="btn-group all-choise-quant" role="group" aria-label="...">
+          <button type="button" class="my-basket-quant-one btn btn-default" name="button">-</button>
+          <input type="number" step="1" min="1" max="99" id="num_count" name="quantity" value="1" class="form-control my-basket-quant-one number-quant-basket" placeholder="1" size="4" />
+          <button type="button" class="my-basket-quant-one btn btn-default" name="button">+</button>
+        </div>
+      </div>
+
+      <div class="total-sum-print">
+        <p>ИТОГО:</p>
+        <h2>4,99 грн.</h2>
+        <button type="button" class="btn btn-default btn-price-order">заказать</button>
+      </div>
+
+      <div class="order-form-h galery-h">
+        <h1>ФОТОПЕЧАТЬ</h1>
+      </div>
+
+      <div class="all-photo-print-pres">
+        <div class="left-print-pres">
+          <img src="assets/img/print-photo-pres.jpg" alt="">
+        </div>
+        <div class="right-print-pres">
+          <p>Печать фотографий — это верный и надежный способ сохранить ваши воспоминания.</p>
+          <p>В наше время, когда фотография получается при помощи цифровых фотоаппаратов, сразу видна на экранах телефонов, планшетов, компьютеров, и демонстрируется чаще всего через интернет, фотопечать потеряла былую актуальность.</p>
+          <p>Но только так вы сможете наверняка сохранить фото на десятилетия, сохранив то, что можно подержать в руках и в кругу близких людей, заново пережить моменты счастья.</p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-default btn-order-printing">ЗАКАЗАТЬ ФОТОПЕЧАТЬ</button>
+      <div class="order-form-h cut-photo-order-txt">
+        <h1>Обрезка фотографий при печати</h1>
+      </div>
+      <p class="cut-photo-order-txt-desc">Разные форматы фотопечати имеют разное соотношение сторон,<br> и оно не всегда совпадает с соотношением сторон файла фотографии.</p>
+      <div class="all-img-cut">
+        <div class="all-img-pct">
+          <div class="left-shadow-img">
+            <div class="img-not-opacity"></div>
+          </div>
+          <p>с полями</p>
+        </div>
+        <div class="img-opacity">
+          <div class="img-opacity-tb">
+            <span class="top-op-img"></span>
+            <span class="bottom-op-img"></span>
+          </div>
+          <p>с обрезкой</p>
+        </div>
+      </div>
+      <div class="desc-сhoice-field">
+        <p>Поэтому вы должны для себя решить: либо фотография распечатывается целиком и на бумаге у вас остаются белые поля, либо снимок заполнит формат полностью, но тогда часть снимка, который вы видите на экране - отрезается.<br> Если у вас включена коррекция
+          оператора, то обрезка будет скорректирована для оптимальной композиции отпечатка.</p>
+      </div>
+    </div>
+    <div class="container-print-photo">
+      <div class="order-form-h cut-photo-order-txt">
+        <h1>Качество отпечатка и размер файла</h1>
+        <p class="quality-print-desc">Для того чтобы напечатать фотографию желаемого формата, и при этом ее качество соответствовало вашим ожиданиям, необходимо чтобы распечатываемый файл был достаточного цифрового размера в пикселях, т.е. имел достаточное разрешение. В идеале 300
+          пикселей на дюйм (2,52 см) бумаги. Учитывайте это при выборе формата и старайтесь загрузить самые большие файлы.</p>
+      </div>
+    </div>
+    <div class="all-img-points">
+      <div class="one-img-300">
+        <img src="assets/img/img-300-points.jpg" alt="">
+        <p>300 точек</p>
+      </div>
+      <div class="two-img-150">
+        <img src="assets/img/img-150-points.jpg" alt="">
+        <p>150 точек</p>
+      </div>
+      <div class="three-img-72">
+        <img src="assets/img/img-72-points.jpg" alt="">
+        <p>72 точки</p>
+      </div>
+    </div>
+    <h1 class="example-photo-points">Примеры наших ФОТОГРАФИЙ</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active one-form-img">
+          <img src="assets/img/img-example-gal.png" alt="">
+          <img src="assets/img/img-example-gal.png" alt="">
+          <img src="assets/img/img-example-gal.png" alt="">
+          <img src="assets/img/img-example-gal.png" alt="">
+        </div>
+        <div class="item one-form-img">
+          <img src="assets/img/img-example-gal.png" alt="">
+          <img src="assets/img/img-example-gal.png" alt="">
+          <img src="assets/img/img-example-gal.png" alt="">
+          <img src="assets/img/img-example-gal.png" alt="">
+        </div>
+      </div>
+      <a class="left carousel-control left-btn-carousel" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon back-btn-print-page"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+      <a class="right carousel-control right-btn-carousel" href="#myCarousel" data-slide="next">
+    <span class="glyphicon next-btn-print-page"></span>
+    <span class="sr-only">Next</span>
+  </a>
+    </div>
+    <div class="btn-all-shop">
+      <button type="button" class="btn btn-default my-btn-shop-ex">ЗАКАЗАТЬ ФОТОПЕЧАТЬ</button>
+    </div>
+    <h1 class="price-photo-print-field">Цены на фотопечать</h1>
+    <div class="container-print-photo my-table-container-print">
+      <div class="table-responsive table-price-cup" data-pattern="priority-columns">
+        <table class="table table-bordered table-hover">
+          <div class="cup-table-one">
+            <thead>
+              <div class="all-table-photo-price">
+                <span class="format-table-print-first">Формат</span>
+                <span class="format-table-print-second">Глянцевая и Матовая фотобумага</span>
+                </tr>
+            </thead>
+            <tbody class="price-of-cup">
+              <tr class="h-table-print">
+                <td></td>
+                <td></td>
+                <td>Цена</td>
+                <td>Размер в мм</td>
+                <td>Размер в пикселях</td>
+              </tr>
+              <tr class="other-price-of-cup">
+                <td>10 × 15</td>
+                <td></td>
+                <td>2,99 грн.</td>
+                <td>102 × 152</td>
+                <td>1205 × 1795</td>
+              </tr>
+              <tr class="other-price-of-cup">
+                <td>13 x 18</td>
+                <td></td>
+                <td>4,99 грн.</td>
+                <td>127 × 178</td>
+                <td>1500 × 2102</td>
+              </tr>
+              <tr class="other-price-of-cup">
+                <td>15 x 20</td>
+                <td></td>
+                <td>5,99 грн.</td>
+                <td>152 × 203</td>
+                <td>1795 × 2398</td>
+              </tr>
+              <tr class="other-price-of-cup">
+                <td>15 x 21</td>
+                <td></td>
+                <td>5,99 грн.</td>
+                <td>152 × 216</td>
+                <td>1795 × 2556</td>
+              </tr>
+              <tr class="other-price-of-cup">
+                <td>20 x 30</td>
+                <td></td>
+                <td>13,99 грн.</td>
+                <td>203 × 305</td>
+                <td>2402 × 3602</td>
+              </tr>
+            </tbody>
+            </div>
+        </table>
+        </div>
+      </div>
+    </div>
+    <h1 class="gal-print">Галерея</h1>
+    <div class="container-print-photo my-gallery-print-photo">
+      <div class="all-gal-print-photo">
+        <img src="assets/img/photo-print-gal-1.jpg" alt="">
+        <img src="assets/img/photo-print-gal-2.jpg" alt="">
+        <img src="assets/img/photo-print-gal-3.jpg" alt="">
+        <img src="assets/img/photo-print-gal-4.jpg" alt="">
+        <img src="assets/img/photo-print-gal-5.jpg" alt="">
+        <img src="assets/img/photo-print-gal-6.jpg" alt="">
+      </div>
+    </div>
+  </content>
+  <section class="footer">
+    <div class="container-all-desc-puzle">
+      <ul class="footer-list-nav">
+        <li><a href="#">Выпускные альбомы</a></li>
+        <li><a href="#">Фотопечать</a></li>
+        <li><a href="#">Чашки</a></li>
+        <li><a href="#">Магниты</a></li>
+        <li><a href="#">Пазлы</a></li>
+        <li><a href="#">Фотостудия</a></li>
+        <li><a href="#">Галерея</a></li>
+      </ul>
+      <div class="icons-bottom-order">
+        <div class="twitter-ico">
+          <a href=""><img src="assets/img/twitter-ico.jpg" alt=""></a>
+        </div>
+        <div class="facebook-ico">
+          <a href=""><img src="assets/img/facebook-ico.jpg" alt=""></a>
+        </div>
+        <div class="insta-ico">
+          <a href=""><img src="assets/img/insta.jpg" alt=""></a>
+        </div>
+      </div>
+      <div class="reserved">
+        © 2017, PhotoSmile. Все права защищены.
+      </div>
+    </div>
+  </section>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" charset="utf-8"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script src="assets/bxslider/jquery.bxslider.min.js"></script>
+<script src="assets/js/script.js" charset="utf-8"></script>
+
+</html>
