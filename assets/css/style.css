@@ -2,13 +2,59 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=Lato");
-.head-container {
-  padding: 0 80px;
+.my-navbar-def {
   background: url("../img/background-header.jpg") no-repeat;
   -moz-background-size: 100%;
   -webkit-background-size: 100%;
   -o-background-size: 100%;
-  background-size: 100%; }
+  background-size: 100%;
+  border: none; }
+
+.my-top-brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15% 0; }
+  .my-top-brand .brand-desc-bt {
+    color: #ffffff;
+    font-family: "Bookman Old Style";
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 10px; }
+
+.all-head-fluid {
+  display: flex !important;
+  align-items: center; }
+
+.my-btn-top-head {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 35px;
+  background-color: #d4c9cb;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #333333; }
+  .my-btn-top-head li {
+    border: 3px solid #bbb;
+    border-top: none;
+    border-bottom: none;
+    padding: 0 10px; }
+  .my-btn-top-head .first-btn-head-list {
+    border-left: none; }
+  .my-btn-top-head .last-btn-head-list {
+    border-right: none; }
+
+.nav-all-logo a {
+  text-decoration: none !important; }
+
+.all-btn-str {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
+  float: none !important;
+  width: 100%; }
 
 .footer {
   margin-top: 8%; }
