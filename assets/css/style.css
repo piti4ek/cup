@@ -10,6 +10,14 @@
   background-size: 100%;
   border: none; }
 
+.container-head {
+  width: 1130px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1130px) {
+    .container-head {
+      margin: 0 auto;
+      width: 100%; } }
+
 .my-top-brand {
   display: flex;
   flex-direction: column;
@@ -26,7 +34,8 @@
 
 .all-head-fluid {
   display: flex !important;
-  align-items: center; }
+  align-items: center;
+  justify-content: space-between; }
 
 .my-btn-top-head {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
@@ -35,12 +44,16 @@
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #333333; }
+  color: #333333;
+  display: flex;
+  flex-direction: row;
+  float: none !important; }
   .my-btn-top-head li {
-    border: 3px solid #bbb;
+    border: 2px solid #bbb;
     border-top: none;
     border-bottom: none;
-    padding: 0 10px; }
+    padding: 0 10px;
+    float: none !important; }
   .my-btn-top-head .first-btn-head-list {
     border-left: none; }
   .my-btn-top-head .last-btn-head-list {
@@ -50,10 +63,21 @@
   text-decoration: none !important; }
 
 .all-btn-str {
+  width: 100%; }
+
+.all-nav-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.my-top-collapse {
   display: flex !important;
-  flex-direction: row !important;
-  justify-content: flex-end !important;
-  float: none !important;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center; }
+
+.my-head-wt {
   width: 100%; }
 
 .footer {
