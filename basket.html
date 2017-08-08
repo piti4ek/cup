@@ -11,178 +11,89 @@
 </head>
 
 <body>
-  <header>
-    <section class="head-container">
-      <div class="one-row-head">
-        <div class="logo">
-          <div class="all-part-logo">
-            <a href=""><img src="assets/img/logo-all-part.png" alt=""></a>
-          </div>
-          <section class="register-block">
-            <div class="login">
-              <a href="">вход</a>
-            </div>
-            <span>|</span>
-            <div class="register">
-              <a href="">регистрация</a>
-            </div>
-          </section>
-        </div>
-        <div class="btn-group top-header-btn" role="group" aria-label="">
-          <a href="#" type="button" class="btn btn-default">Выпускные альбомы</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Фотопечать</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Чашки</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Магниты</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Пазлы</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Фотостудия</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Галерея</a>
-        </div>
-        <div class="basket-head">
-          <a href="#">
-            <img src="assets/img/basket.png" alt="">
-            <img src="assets/img/basket-number-bg.png" class="number-basket-top" alt="">
-            <span class="number-txt-basket">1</span>
+  <div class="header">
+    <nav class="navbar navbar-default my-navbar-def">
+      <div class="container-head all-cont-head-top">
+        <div class="navbar-header top-bar-head">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="all-logo-txt">
+          <a class="navbar-brand all-cont-head" href="#">
+            <img src="assets/img/brackets-logo.png" alt="">
           </a>
+          <span class="txt-logo-white">зберігаємо приємні спогади</span>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse my-col-all-btn" id="bs-example-navbar-collapse-1">
+          <div class="all-btn-head">
+            <ul class="nav navbar-nav my-nav-head-btn">
+              <li class="first-btn-header"><a href="#">Выпускные альбомы</a></li>
+              <li><a href="#">Фотопечать</a></li>
+              <li><a href="#">Чашки</a></li>
+              <li><a href="#">Магниты</a></li>
+              <li><a href="#">Пазлы</a></li>
+              <li><a href="#">Фотостудия</a></li>
+              <li class="last-btn-header"><a href="#">Галерея</a></li>
+            </ul>
+            <div class="basket-head">
+              <a href="#">
+                <img src="assets/img/basket.png" alt="">
+                <img src="assets/img/basket-number-bg.png" class="number-basket-top" alt="">
+                <span class="number-txt-basket">1</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-  </header>
+    </nav>
+  </div>
   <content>
     <div class="container-basket">
       <div class="order-form-h">
         <h1>корзина</h1>
       </div>
-      <!-- <div class="all-basket-table">
-        <div class="col-md-2">
-          <div class="photo-basket img-no-mg-basket">
-            <span class="txt-basket-h">фото</span>
-            <img src="assets/img/cup-basket.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="photo-basket">
-            <span class="txt-basket-h">товар</span>
-            <span class="name-product-basket">Чашка Хамелеон</span>
-            <span class="desc-prod-basket">фото на кружке</span>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="photo-basket">
-            <span class="name-product-basket-edit"><a href="">редактировать</a></span>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="photo-basket">
-            <span class="txt-basket-h mb-choise">КОЛИЧЕСТВО</span>
-            <div class="btn-group all-choise-quant" role="group" aria-label="...">
-              <button type="button" class="my-basket-quant-one btn btn-default" name="button">-</button>
-              <input type="number" step="1" min="1" max="99" id="num_count" name="quantity" value="1" class="form-control my-basket-quant-one number-quant-basket" placeholder="1" size="4" />
-              <button type="button" class="my-basket-quant-one btn btn-default" name="button">+</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="photo-basket right-choise-basket">
-            <span class="txt-basket-h">ВЕС</span>
-            <span class="name-product-basket">0,29 кг</span>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="photo-basket right-choise-basket">
-            <span class="txt-basket-h">ЦЕНА</span>
-            <span class="name-product-basket">150 грн.</span>
-          </div>
-        </div>
-        <div class="col-md-2">
-          <div class="photo-basket remove-basket-table">
-            <span class="txt-basket-h">УДАЛИТЬ</span>
-            <a href=""><i class="glyphicon glyphicon-remove-circle my-remove-basket-table-btn"></i></a>
-          </div>
-        </div>
-      </div> -->
-<!-- new - basket================================================================== -->
-      <!-- <div class="all-basket-tb">
-        <div class="all-top-basket-width">
-          <div class="photo-basket">ФОТО</div>
-          <div class="product-basket">ТОВАР</div>
-          <div class="quantity-basket"> </div>
-          <div class="quantity-basket">КОЛИЧЕСТВО</div>
-          <div class="weight-basket">ВЕС</div>
-          <div class="price-basket">ЦЕНА</div>
-          <div class="delete-basket">УДАЛИТЬ</div>
-        </div>
-        <div class="all-bottom-basket-width">
-          <div class="img-basket-preview">
-            <img src="assets/img/cup-basket.jpg" alt="">
-          </div>
-          <div class="product-name-basket">
-            <h4>Чашка Хамелеон</h4>
-            <p>фото на кружке</p>
-          </div>
-          <div class="all-select-chois-pp">
-            <div class="btn-group all-choise-quant" role="group" aria-label="...">
-              <button type="button" class="my-basket-quant-one btn btn-default" name="button">-</button>
-              <input type="number" step="1" min="1" max="99" id="num_count" name="quantity" value="1" class="form-control my-basket-quant-one number-quant-basket" placeholder="1" size="4">
-              <button type="button" class="my-basket-quant-one btn btn-default" name="button">+</button>
-            </div>
-          </div>
-          <div class="weight-number-basket">0,29 кг</div>
-          <div class="price-number-basket">150 грн.</div>
-          <div class="photo-basket remove-basket-table">
-            <a href=""><i class="glyphicon glyphicon-remove-circle my-remove-basket-table-btn"></i></a>
-          </div>
-        </div>
-      </div> -->
-
       <div class="basket-table-one">
         <table class="table table-bordered table-hover">
           <thead>
             <tr>
               <th data-priority="1" class="format-table-print">ФОТО</th>
               <th data-priority="2" class="format-table-print">ТОВАР</th>
-              <th data-priority="5" class="format-table-print"> </th>
-              <th data-priority="3" class="format-table-print">КОЛИЧЕСТВО</th>
-              <th data-priority="4" class="format-table-print">ВЕС</th>
-              <th data-priority="5" class="format-table-print">ЦЕНА</th>
-              <th data-priority="6" class="format-table-print">Удалить</th>
+              <th data-priority="3" class="format-table-print"> </th>
+              <th data-priority="4" class="format-table-print">КОЛИЧЕСТВО</th>
+              <th data-priority="5" class="format-table-print">ВЕС</th>
+              <th data-priority="6" class="format-table-print">ЦЕНА</th>
+              <th data-priority="7" class="format-table-print">Удалить</th>
             </tr>
           </thead>
           <tbody class="price-of-cup">
-            <tr class="h-table-print<img src="assets/img/cup-basket.jpg" alt=">
+            <tr class="h-table-print table-basket-prod">
               <td>
                 <img src="assets/img/cup-basket.jpg" alt="">
               </td>
               <td>Чашка Хамелеон</td>
-              <td></td>
               <td>редактировать</td>
-              <td>
-                <div class="all-select-chois-pp">
-                <div class="btn-group all-choise-quant" role="group" aria-label="...">
-                  <button type="button" class="my-basket-quant-one btn btn-default" name="button">-</button>
-                  <input type="number" step="1" min="1" max="99" id="num_count" name="quantity" value="1" class="form-control my-basket-quant-one number-quant-basket" placeholder="1" size="4">
-                  <button type="button" class="my-basket-quant-one btn btn-default" name="button">+</button>
-                </div>
+              <td class="td-all-select-chois">
+                <div class="all-select-chois">
+                  <div class="btn-group all-choise-quant" role="group" aria-label="...">
+                    <button type="button" class="my-basket-quant-one btn btn-default" name="button">-</button>
+                    <input type="number" step="1" min="1" max="99" id="num_count" name="quantity" value="1" class="form-control my-basket-quant-one number-quant-basket" placeholder="1" size="4">
+                    <button type="button" class="my-basket-quant-one btn btn-default" name="button">+</button>
+                  </div>
               </div>
-            </td>
-            <td>0,29 кг</td>
-            <td>150 грн.</td>
-            <td>
-              <a href=""><i class="glyphicon glyphicon-remove-circle my-remove-basket-table-btn"></i></a>
-            </td>
+              </td>
+              <td>0,29 кг</td>
+              <td>150 грн.</td>
+              <td>
+                <a href=""><i class="glyphicon glyphicon-remove-circle my-remove-basket-table-btn"></i></a>
+              </td>
             </tr>
           </tbody>
         </table>
       </div>
-
-
-
-
       <div class="all-btn-basket-shop">
         <a href="#" type="button" class="btn btn-default my-basket-btn-shop-up">ПРОДОЛЖИТЬ ПОКУПКИ</a>
         <a href="#" type="button" class="btn btn-default my-basket-btn-shop-order">ОФОРМИТЬ ЗАКАЗ</a>
