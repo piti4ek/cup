@@ -559,10 +559,12 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 70px;
+  justify-content: space-between;
 
-  .new-user-order,
-  .reg-user-order {
-    width: 50%;
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
   }
 }
 
@@ -574,18 +576,45 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  padding-left: 170px;
   padding-bottom: 30px;
 
   input {
-    max-width: 416px;
     width: 100%;
     height: 45px;
   }
 
   span {
-    max-width: 416px;
     width: 100%;
+  }
+}
+
+.new-user-order {
+  width: 47%;
+
+  @media screen and (max-width: 820px) {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    width: 70%;
+  }
+
+  @media screen and (max-width: 820px) {
+    width: 90%;
+  }
+}
+
+.reg-user-order {
+  width: 47%;
+
+  @media screen and (max-width: 820px) {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 820px) {
+    width: 90%;
   }
 }
 
@@ -618,6 +647,12 @@
   text-align: center;
   margin-top: 10px;
   margin-right: 5%;
+
+  @media screen and (max-width: 820px) {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
 
 .all-container-gal {
@@ -639,8 +674,6 @@
 }
 
 .forgot-pass-order {
-  max-width: 416px;
-  margin-left: 170px;
   text-align: end;
   padding-bottom: 20px;
 
@@ -650,6 +683,7 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
+    white-space: nowrap;
   }
 }
 
@@ -1095,6 +1129,12 @@
   text-align: center;
   flex-wrap: wrap;
 
+  button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+  }
+
   a {
     margin-bottom: 3%;
     @media screen and (max-width: 1230px) {
@@ -1106,6 +1146,13 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
+  }
+}
+
+.img-ruler-block-left {
+  img {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -1175,7 +1222,6 @@
 }
 
 .second-btn-order-tot {
-  margin: 0 20px;
   @media screen and (max-width: 903px) {
     margin: 0;
   }
@@ -1209,7 +1255,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 2%;
+  margin-top: 5%;
 
   .all-next-order-tot {
     padding: 20px 80px;
@@ -1517,7 +1563,7 @@
   justify-content: space-around;
   list-style: none;
   flex-wrap: wrap;
-  margin-right: 5%;
+  padding: 0 5%;
   @media screen and (max-width: 710px) {
     display: flex;
     flex-direction: column;
@@ -2044,6 +2090,7 @@
     font-weight: 700;
     line-height: 40px;
     margin: 20px 0;
+    white-space: nowrap;
     @media screen and (max-width: 610px) {
       font-size: 16px;
       padding: 0 3px;
@@ -2183,6 +2230,17 @@
   }
 
   .one-form-img {
+
+    @media screen and (max-width: 800px) {
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 1050px) {
+      width: 70%;
+      margin: 0 auto;
+    }
+
     img {
       margin: 0 3%;
     }
@@ -2528,10 +2586,54 @@
 }
 
 .my-carousel-cup {
-  // @media screen and (max-width: 1020px) {
-  //   width: 75%;
-  //   margin: 0 auto;
-  // }
+  @media screen and (max-width: 800px) {
+    max-height: 110px;
+  }
+
+  @media screen and (max-width: 1000px) {
+    max-height: 160px;
+  }
+
+  @media screen and (max-width: 900px) {
+    max-height: 147px;
+  }
+
+  @media screen and (max-width: 850px) {
+    max-height: 137px;
+  }
+
+  @media screen and (max-width: 750px) {
+    max-height: 120px;
+  }
+
+  @media screen and (max-width: 650px) {
+    max-height: 105px;
+  }
+
+  @media screen and (max-width: 580px) {
+    max-height: 93px;
+  }
+
+  @media screen and (max-width: 520px) {
+    max-height: 83px;
+  }
+
+  @media screen and (max-width: 465px) {
+    max-height: 77px;
+  }
+}
+
+.container-formalization {
+  width: 950px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 950px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1020px) {
+    padding: 0 5%;
+  }
 }
 
 .cup-gal-1 {
@@ -2588,6 +2690,10 @@
   padding-top: 75px;
   padding-bottom: 35px;
   text-align: center;
+
+  @media screen and (max-width: 767px) {
+    padding-top: 30px;
+  }
 }
 
 .all-img-desc-txt {

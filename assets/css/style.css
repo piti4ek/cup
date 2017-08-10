@@ -425,10 +425,13 @@
 .all-user-order {
   display: flex;
   flex-direction: row;
-  margin-bottom: 70px; }
-  .all-user-order .new-user-order,
-  .all-user-order .reg-user-order {
-    width: 50%; }
+  margin-bottom: 70px;
+  justify-content: space-between; }
+  @media screen and (max-width: 820px) {
+    .all-user-order {
+      flex-direction: column;
+      margin: 0 auto;
+      justify-content: center; } }
 
 .my-input-user-order {
   display: flex;
@@ -438,15 +441,36 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  padding-left: 170px;
   padding-bottom: 30px; }
   .my-input-user-order input {
-    max-width: 416px;
     width: 100%;
     height: 45px; }
   .my-input-user-order span {
-    max-width: 416px;
     width: 100%; }
+
+.new-user-order {
+  width: 47%; }
+  @media screen and (max-width: 820px) {
+    .new-user-order {
+      margin: 0 auto;
+      padding-bottom: 100px;
+      width: 70%; } }
+  @media screen and (max-width: 820px) {
+    .new-user-order {
+      width: 90%; } }
+
+.reg-user-order {
+  width: 47%; }
+  @media screen and (max-width: 820px) {
+    .reg-user-order {
+      margin: 0 auto;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }
+  @media screen and (max-width: 820px) {
+    .reg-user-order {
+      width: 90%; } }
 
 .new-user-order-done {
   padding: 18px 40px;
@@ -474,6 +498,11 @@
   text-align: center;
   margin-top: 10px;
   margin-right: 5%; }
+  @media screen and (max-width: 820px) {
+    .all-user-order-done {
+      display: flex;
+      justify-content: center;
+      margin: 0 auto; } }
 
 .all-container-gal {
   margin: 0 auto;
@@ -492,8 +521,6 @@
   text-transform: uppercase; }
 
 .forgot-pass-order {
-  max-width: 416px;
-  margin-left: 170px;
   text-align: end;
   padding-bottom: 20px; }
   .forgot-pass-order a {
@@ -501,7 +528,8 @@
     font-family: "Open Sans";
     font-size: 14px;
     font-weight: 400;
-    line-height: 30px; }
+    line-height: 30px;
+    white-space: nowrap; }
 
 .links-footer-order {
   justify-content: center;
@@ -838,6 +866,10 @@
   flex-direction: row;
   text-align: center;
   flex-wrap: wrap; }
+  .all-btn-order button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 15px; }
   .all-btn-order a {
     margin-bottom: 3%; }
     @media screen and (max-width: 1230px) {
@@ -848,6 +880,10 @@
       display: flex;
       flex-direction: column;
       margin-bottom: 10px; } }
+
+.img-ruler-block-left img {
+  width: 100%;
+  height: 100%; }
 
 .rule-top {
   display: flex;
@@ -897,11 +933,9 @@
 .add-img-order {
   margin-left: 0; }
 
-.second-btn-order-tot {
-  margin: 0 20px; }
-  @media screen and (max-width: 903px) {
-    .second-btn-order-tot {
-      margin: 0; } }
+@media screen and (max-width: 903px) {
+  .second-btn-order-tot {
+    margin: 0; } }
 
 .all-total-order {
   white-space: nowrap; }
@@ -927,7 +961,7 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-top: 2%; }
+  margin-top: 5%; }
   .all-btn-next-order .all-next-order-tot {
     padding: 20px 80px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
@@ -1162,7 +1196,7 @@
   justify-content: space-around;
   list-style: none;
   flex-wrap: wrap;
-  margin-right: 5%; }
+  padding: 0 5%; }
   @media screen and (max-width: 710px) {
     .footer-list-nav {
       display: flex;
@@ -1573,7 +1607,8 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 40px;
-  margin: 20px 0; }
+  margin: 20px 0;
+  white-space: nowrap; }
   @media screen and (max-width: 610px) {
     .h-table-print td {
       font-size: 16px;
@@ -1668,6 +1703,14 @@
   display: flex;
   flex-direction: row;
   justify-content: center; }
+@media screen and (max-width: 800px) {
+  .carousel-inner .one-form-img {
+    width: 60%;
+    margin: 0 auto; } }
+@media screen and (max-width: 1050px) {
+  .carousel-inner .one-form-img {
+    width: 70%;
+    margin: 0 auto; } }
 .carousel-inner .one-form-img img {
   margin: 0 3%; }
 
@@ -1938,6 +1981,44 @@
     .container-cups-order {
       width: 100%; } }
 
+@media screen and (max-width: 800px) {
+  .my-carousel-cup {
+    max-height: 110px; } }
+@media screen and (max-width: 1000px) {
+  .my-carousel-cup {
+    max-height: 160px; } }
+@media screen and (max-width: 900px) {
+  .my-carousel-cup {
+    max-height: 147px; } }
+@media screen and (max-width: 850px) {
+  .my-carousel-cup {
+    max-height: 137px; } }
+@media screen and (max-width: 750px) {
+  .my-carousel-cup {
+    max-height: 120px; } }
+@media screen and (max-width: 650px) {
+  .my-carousel-cup {
+    max-height: 105px; } }
+@media screen and (max-width: 580px) {
+  .my-carousel-cup {
+    max-height: 93px; } }
+@media screen and (max-width: 520px) {
+  .my-carousel-cup {
+    max-height: 83px; } }
+@media screen and (max-width: 465px) {
+  .my-carousel-cup {
+    max-height: 77px; } }
+
+.container-formalization {
+  width: 950px;
+  margin: 0 auto; }
+  @media screen and (max-width: 950px) {
+    .container-formalization {
+      width: 100%; } }
+  @media screen and (max-width: 1020px) {
+    .container-formalization {
+      padding: 0 5%; } }
+
 .cup-gal-1 {
   background: url("../img/cup-gal-1.png") no-repeat;
   background-size: 100%;
@@ -1987,6 +2068,9 @@
   padding-top: 75px;
   padding-bottom: 35px;
   text-align: center; }
+  @media screen and (max-width: 767px) {
+    .top-h-port {
+      padding-top: 30px; } }
 
 .all-img-desc-txt {
   display: flex;
