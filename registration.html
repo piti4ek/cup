@@ -11,117 +11,117 @@
 </head>
 
 <body>
-  <header>
-    <section class="head-container">
-      <div class="one-row-head">
-        <div class="logo">
-          <div class="all-part-logo">
-            <a href=""><img src="assets/img/logo-all-part.png" alt=""></a>
-          </div>
-          <section class="register-block">
-            <div class="login">
-              <a href="">вход</a>
-            </div>
-            <span>|</span>
-            <div class="register">
-              <a href="">регистрация</a>
-            </div>
-          </section>
-        </div>
-        <div class="btn-group top-header-btn" role="group" aria-label="">
-          <a href="#" type="button" class="btn btn-default">Выпускные альбомы</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Фотопечать</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Чашки</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Магниты</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Пазлы</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Фотостудия</a>
-          <span class="aft-button-top"></span>
-          <a href="#" type="button" class="btn btn-default">Галерея</a>
-        </div>
-        <div class="basket-head">
-          <a href="#">
-            <img src="assets/img/basket.png" alt="">
-            <img src="assets/img/basket-number-bg.png" class="number-basket-top" alt="">
-            <span class="number-txt-basket">1</span>
+  <div class="header">
+    <nav class="navbar navbar-default my-navbar-def">
+      <div class="container-head all-cont-head-top">
+        <div class="navbar-header top-bar-head">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="all-logo-txt">
+            <a class="navbar-brand all-cont-head" href="#">
+            <img src="assets/img/brackets-logo.png" alt="">
           </a>
+            <span class="txt-logo-white">зберігаємо приємні спогади</span>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse my-col-all-btn" id="bs-example-navbar-collapse-1">
+          <div class="all-btn-head">
+            <ul class="nav navbar-nav my-nav-head-btn">
+              <li class="first-btn-header"><a href="#">Выпускные альбомы</a></li>
+              <li><a href="#">Фотопечать</a></li>
+              <li><a href="#">Чашки</a></li>
+              <li><a href="#">Магниты</a></li>
+              <li><a href="#">Пазлы</a></li>
+              <li><a href="#">Фотостудия</a></li>
+              <li class="last-btn-header"><a href="#">Галерея</a></li>
+            </ul>
+            <div class="basket-head">
+              <a href="#">
+                <img src="assets/img/basket.png" alt="">
+                <img src="assets/img/basket-number-bg.png" class="number-basket-top" alt="">
+                <span class="number-txt-basket">1</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-  </header>
+    </nav>
+  </div>
   <content>
-    <div class="registration-form-cont">
-      <h1>Регистрация на сайте</h1>
-    </div>
-    <div class="all-registration-cont">
-      <div class="input-group my-inputs-registr-content">
-        <span class="name-input-cont">Имя:</span>
-        <span class="be-sure-inp">*</span>
-        <input type="text" class="form-control" aria-describedby="basic-addon1">
+    <div class="container-reg-form">
+      <div class="registration-form-cont">
+        <h1>Регистрация на сайте</h1>
       </div>
-      <div class="input-group my-inputs-registr-content">
-        <span class="name-input-cont">Фамилия:</span>
-        <span class="be-sure-inp">*</span>
-        <input type="text" class="form-control" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group my-inputs-registr-content">
-        <span class="name-input-cont">Эл.почта:</span>
-        <span class="be-sure-inp">*</span>
-        <input type="email" class="form-control" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group my-inputs-registr-content">
-        <span class="name-input-cont">Моб.телефон:</span>
-        <span class="be-sure-inp">*</span>
-        <input type="tel" class="form-control" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group my-inputs-registr-content">
-        <span class="name-input-cont">Город:</span>
-        <span class="be-sure-inp">*</span>
-        <input type="text" class="form-control" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group my-inputs-registr-content">
-        <span class="name-input-cont">Пароль:</span>
-        <span class="be-sure-inp">*</span>
-        <input type="text" class="form-control" aria-describedby="basic-addon1">
-      </div>
-      <div class="input-group my-inputs-registr-content">
-        <span class="name-input-cont">Ваш возраст:</span>
-        <span class="be-sure-inp">*</span>
-        <input type="number" class="form-control" aria-describedby="basic-addon1">
-      </div>
-
-      <div class="input-group my-inputs-registr-content">
-        <span class="name-input-cont">Есть ли у Вас дети школьного или садиковского возраста?</span>
-        <span class="be-sure-inp">*</span>
-        <div class="radio-kids" data-toggle="buttons">
-          <label class="btn btn-default my-btn-kids">
-            <input type="radio" name="options" id="option2" autocomplete="off">
-            <span class="glyphicon glyphicon-ok"></span>
-          </label>
-          <span class="name-label-kids">Школа</span>
-          <label class="btn btn-default my-btn-kids">
-            <input type="radio" name="options" id="option2" autocomplete="off">
-            <span class="glyphicon glyphicon-ok"></span>
-          </label>
-          <span class="name-label-kids">Садик</span>
-          <label class="btn btn-default my-btn-kids">
-            <input type="radio" name="options" id="option2" autocomplete="off">
-            <span class="glyphicon glyphicon-ok"></span>
-          </label>
-          <span class="name-label-kids">Нет</span>
+      <div class="all-registration-cont">
+        <div class="input-group my-inputs-registr-content">
+          <span class="name-input-cont">Имя:</span>
+          <span class="be-sure-inp">*</span>
+          <input type="text" class="form-control" aria-describedby="basic-addon1">
         </div>
-      </div>
-      <div class="all-required-reg">
-        <h5 class="required-reg">Все поля помеченные <h5 class="required-reg-red">* обязательны для заполнения</h5></h5>
-      </div>
-      <div class="all-user-order-done">
-        <button type="button" class="btn btn-default new-user-order-done new-user-reg" aria-label="Left Align">
+        <div class="input-group my-inputs-registr-content">
+          <span class="name-input-cont">Фамилия:</span>
+          <span class="be-sure-inp">*</span>
+          <input type="text" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group my-inputs-registr-content">
+          <span class="name-input-cont">Эл.почта:</span>
+          <span class="be-sure-inp">*</span>
+          <input type="email" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group my-inputs-registr-content">
+          <span class="name-input-cont">Моб.телефон:</span>
+          <span class="be-sure-inp">*</span>
+          <input type="tel" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group my-inputs-registr-content">
+          <span class="name-input-cont">Город:</span>
+          <span class="be-sure-inp">*</span>
+          <input type="text" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group my-inputs-registr-content">
+          <span class="name-input-cont">Пароль:</span>
+          <span class="be-sure-inp">*</span>
+          <input type="text" class="form-control" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group my-inputs-registr-content">
+          <span class="name-input-cont">Ваш возраст:</span>
+          <span class="be-sure-inp">*</span>
+          <input type="number" class="form-control" aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group my-inputs-registr-content">
+          <span class="name-input-cont">Есть ли у Вас дети школьного или садиковского возраста?</span>
+          <span class="be-sure-inp">*</span>
+          <div class="radio-kids" data-toggle="buttons">
+            <label class="btn btn-default my-btn-kids">
+            <input type="radio" name="options" id="option2" autocomplete="off">
+            <span class="glyphicon glyphicon-ok"></span>
+          </label>
+            <span class="name-label-kids">Школа</span>
+            <label class="btn btn-default my-btn-kids">
+            <input type="radio" name="options" id="option2" autocomplete="off">
+            <span class="glyphicon glyphicon-ok"></span>
+          </label>
+            <span class="name-label-kids">Садик</span>
+            <label class="btn btn-default my-btn-kids">
+            <input type="radio" name="options" id="option2" autocomplete="off">
+            <span class="glyphicon glyphicon-ok"></span>
+          </label>
+            <span class="name-label-kids">Нет</span>
+          </div>
+        </div>
+        <div class="all-required-reg">
+          <h5 class="required-reg">Все поля помеченные <h5 class="required-reg-red">* обязательны для заполнения</h5></h5>
+        </div>
+        <div class="all-user-order-done">
+          <button type="button" class="btn btn-default new-user-order-done new-user-reg" aria-label="Left Align">
         <span class="new-user-order-done-txt" aria-hidden="true">ЗАРЕГИСТРИРОВАТЬСЯ</span>
       </button>
+        </div>
       </div>
     </div>
   </content>
